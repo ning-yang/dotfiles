@@ -42,3 +42,6 @@ git config --global user.email csyangning@gmail.com
 git config --global core.editor vim
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
+
+# fix ownership
+chmod u=rwx,g=rwx,o=rwx ~/dotfiles/ --recursive
