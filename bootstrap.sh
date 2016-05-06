@@ -6,6 +6,7 @@ apt-get install -y vim vim-nox git zsh tmux
 apt-get install -y build-essential cmake
 apt-get install -y python2.7 ipython python-pip python-dev 
 apt-get install -y openssh-server openssh-client
+apt-get install ruby-dev # required by jekyll
 
 # for mac: brew install the_silver_searcher
 apt-get install silversearcher-ag
