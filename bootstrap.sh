@@ -34,3 +34,8 @@ ln -s ~/dotfiles/zshrc ~/.zshrc
 # install vimplug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# config basic git
+git config --global user.name "Ning Yang"
+git config --global user.email csyangning@gmail.com
+git config --global core.editor vim
