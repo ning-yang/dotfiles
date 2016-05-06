@@ -1,5 +1,5 @@
 # Alias Editing
-alias ae='vim ~/.alias/common.zsh'
+alias ae='vim ~/dotfiles/zsh/common.zsh'
 alias ar='source ~/.zshrc'
 
 # vimrc editing
