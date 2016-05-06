@@ -40,3 +40,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 git config --global user.name "Ning Yang"
 git config --global user.email csyangning@gmail.com
 git config --global core.editor vim
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
