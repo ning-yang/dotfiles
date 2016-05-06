@@ -30,5 +30,6 @@ Plug 'Raimondi/delimitMate'
 Plug 'kristijanhusak/vim-multiple-cursors'
 Plug 'bogado/file-line'
 Plug 'sjl/gundo.vim'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
