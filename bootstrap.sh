@@ -2,7 +2,7 @@
 
 # install necessary packages
 apt-get update
-apt-get install -y vim git zsh tmux 
+apt-get install -y vim vim-nox git zsh tmux 
 apt-get install -y build-essential cmake
 apt-get install -y python2.7 ipython python-pip python-dev 
 
