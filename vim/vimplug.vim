@@ -23,5 +23,12 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'rking/ag.vim'
 Plug 'mhinz/vim-startify'
 Plug 'mattesgroeger/vim-bookmarks'
+Plug 'tpope/vim-fugitive'                               " git plugin
+Plug 'sheerun/vim-polyglot'                             " language package
+Plug 'nelstrom/vim-visual-star-search'
+Plug 'Raimondi/delimitMate'
+Plug 'kristijanhusak/vim-multiple-cursors'
+Plug 'bogado/file-line'
+Plug 'sjl/gundo.vim'
 
 call plug#end()
