@@ -6,13 +6,16 @@ apt-get install -y vim vim-nox git zsh tmux
 apt-get install -y build-essential cmake
 apt-get install -y python2.7 ipython python-pip python-dev 
 apt-get install -y openssh-server openssh-client
-apt-get install ruby-dev # required by jekyll
+apt-get install -y ruby-dev # required by jekyll
+apt-get install -y mysql-client
 
 # for mac: brew install the_silver_searcher
 apt-get install silversearcher-ag
 
 # install python tools
 pip install pudb
+pip install virtualenv 
+pip install virtualenvwrapper
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
