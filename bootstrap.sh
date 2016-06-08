@@ -49,3 +49,6 @@ git config --global credential.helper 'cache --timeout=3600'
 
 # fix ownership
 chmod u=rwx,g=rwx,o=rwx ~/dotfiles/ --recursive
+
+# create dev folders
+mkdir -p ~/projects
