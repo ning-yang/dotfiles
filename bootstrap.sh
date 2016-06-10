@@ -7,7 +7,7 @@ apt-get install -y build-essential cmake
 apt-get install -y python2.7 ipython python-pip python-dev 
 apt-get install -y openssh-server openssh-client
 apt-get install -y ruby-dev # required by jekyll
-apt-get install -y mysql-client
+apt-get install -y mysql-client python-mysqldb libmysqlclient-dev
 
 # for mac: brew install the_silver_searcher
 apt-get install silversearcher-ag

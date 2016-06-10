@@ -31,5 +31,6 @@ Plug 'kristijanhusak/vim-multiple-cursors'
 Plug 'bogado/file-line'
 Plug 'sjl/gundo.vim'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'heavenshell/vim-pydocstring'
 
 call plug#end()
