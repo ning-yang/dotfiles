@@ -8,3 +8,4 @@ let g:pymode_options_colorcolumn = 0        " do not show max column
 let g:pymode_options_max_line_length = 150  " set max length
 let g:pymode_lint_ignore = "E501,E302,C901" " Disable the warming about 2 empty line after comments 
 let g:pymode_run = 0                        " Disable python run from vim
+let g:pymode_doc = 0                        " Disable doc find
