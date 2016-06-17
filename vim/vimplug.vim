@@ -21,7 +21,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'rking/ag.vim'
-Plug 'mhinz/vim-startify'
+" Plug 'mhinz/vim-startify'
 Plug 'mattesgroeger/vim-bookmarks'
 Plug 'tpope/vim-fugitive'                               " git plugin
 Plug 'sheerun/vim-polyglot'                             " language package
@@ -32,5 +32,7 @@ Plug 'bogado/file-line'
 Plug 'sjl/gundo.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'heavenshell/vim-pydocstring'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-session'
 
 call plug#end()

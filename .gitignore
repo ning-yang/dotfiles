@@ -2,4 +2,5 @@ vim/spell
 vim/tmp
 vim/plugged
 vim/plugin
-
+vim/.netrwhist
+vim/sessions/
