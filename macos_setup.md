@@ -41,3 +41,22 @@
 	"word_wrap": true
 }
 ```
+
+sublime.package.Anacoda.python.settings:
+```
+{
+    // editor options
+    "draw_white_space": "all",
+
+    // tabs and whitespace
+    "auto_indent": true,
+    // "rulers": [79],
+    "smart_indent": true,
+    "tab_size": 4,
+    "trim_automatic_white_space": true,
+    "use_tab_stops": true,
+    // "word_wrap": true,
+    // "wrap_width": 120,
+    "translateTabsToSpaces": true
+}
+```
