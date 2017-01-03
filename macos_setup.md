@@ -40,6 +40,30 @@
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
 }
+
+Package Control.sublime-settings:
+
+{
+        "bootstrapped": true,
+        "in_process_packages":
+        [
+        ],
+        "installed_packages":
+        [
+                "Anaconda",
+                "Colorsublime",
+                "Compare Side-By-Side",
+                "FileDiffs",
+                "FTPSync",
+                "Markdown Preview",
+                "MarkdownEditing",
+                "Material Theme",
+                "Package Control",
+                "Pretty JSON",
+                "SideBarEnhancements",
+                "Virtualenv"
+        ]
+}
 ```
 
 sublime.package.Anacoda.python.settings:
