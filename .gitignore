@@ -4,3 +4,9 @@ vim/plugged
 vim/plugin
 vim/.netrwhist
 vim/sessions/
+sublime/User/Package Control.cache
+sublime/User/*.crt
+sublime/User/*.last-run
+sublime/User/*.merged-ca-bundle
+sublime/User/*.user-ca-bundle
+sublime/User/*.tmTheme

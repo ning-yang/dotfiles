@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Colorsublime",
+		"Compare Side-By-Side",
+		"FileDiffs",
+		"FTPSync",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Material Theme",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"Theme - Spacegray",
+		"Virtualenv"
+	]
+}
