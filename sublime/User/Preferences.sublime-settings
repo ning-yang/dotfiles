@@ -1,9 +1,8 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
-	 "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
-  	"font_face": "source code pro",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"font_face": "source code pro",
 	"font_size": 15,
 	"ignored_packages":
 	[
@@ -25,11 +24,11 @@
 	"material_theme_tabs_autowidth": true,
 	"material_theme_tabs_separator": true,
 	"overlay_scroll_bars": "enabled",
-	"translate_tabs_to_spaces": true,
-	"word_wrap": true,
+	"spacegray_fileicons": true,
 	"spacegray_tabs_auto_width": true,
 	"spacegray_tabs_large": true,
-	"spacegray_sidebar_font_large": true,
-	"spacegray_sidebar_tree_large": true,
-	"spacegray_fileicons": true
+	"theme": "Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"scroll_past_end": true,
+	"word_wrap": true
 }
