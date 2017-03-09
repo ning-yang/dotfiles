@@ -59,7 +59,7 @@ ZSH_THEME_HG_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_HG_PROMPT_DIRTY="%{$fg[magenta]%}) %{$fg[yellow]%}✗%{$reset_color%}"
 ZSH_THEME_HG_PROMPT_CLEAN="%{$fg[magenta]%})"
 
-plugins=(git tmux mercurial common-aliases)
+plugins=(git tmux mercurial common-aliases golang)
 
 # User configuration
 
