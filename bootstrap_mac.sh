@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# add brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# add brew cask
+
 brew install zsh zsh-completions
 brew install cmake
 brew install tmux
