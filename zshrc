@@ -63,7 +63,7 @@ plugins=(git tmux mercurial common-aliases)
 
 # User configuration
 
-  export PATH="/usr/local/rbenv/shims:/usr/local/rbenv/bin:/usr/local/rbenv/shims:/usr/local/rbenv/bin:/opt/skytap/bin:/var/lib/gems/1.8/bin:/opt/kubernetes/bin:/opt/etcd/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+  export PATH="/usr/local/rbenv/shims:/usr/local/rbenv/bin:/usr/local/rbenv/shims:/usr/local/rbenv/bin:/opt/skytap/bin:/var/lib/gems/1.8/bin:/opt/kubernetes/bin:/opt/etcd/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/go/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
