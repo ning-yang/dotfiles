@@ -2,7 +2,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Plug 'klen/python-mode'
+Plug 'klen/python-mode'
 Plug 'easymotion/vim-easymotion'
 Plug 'tmhedberg/SimpylFold'
 " Plug 'vim-scripts/indentpython.vim'
@@ -21,10 +21,11 @@ Plug 'kristijanhusak/vim-multiple-cursors'
 Plug 'bogado/file-line'
 Plug 'sjl/gundo.vim'
 Plug 'christoomey/vim-tmux-navigator'
-" Plug 'heavenshell/vim-pydocstring'
+Plug 'heavenshell/vim-pydocstring'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'Yggdroot/indentLine'
+Plug 'fatih/vim-go'
 
 call plug#end()
