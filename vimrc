@@ -25,7 +25,11 @@ endif
 " ================ General Settings ================
 filetype plugin indent on
 syntax on
-colorscheme Tomorrow-Night-Eighties
+" colorscheme Tomorrow-Night-Eighties
+set background=dark
+let g:hybrid_custom_term_colors = 1
+let g:hybrid_reduced_contrast = 1 " Remove this line if using the default palette.
+colorscheme hybrid
 set autoread                " reload file changed outside vim
 set hidden                  " better buffer performance
 
