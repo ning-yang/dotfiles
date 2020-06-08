@@ -4,6 +4,7 @@ vim/plugged
 vim/plugin
 vim/.netrwhist
 vim/sessions/
+vim/cache/
 sublime/User/Package Control.cache
 sublime/User/*.crt
 sublime/User/*.last-run
