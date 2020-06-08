@@ -60,7 +60,7 @@ plugins=(git tmux mercurial common-aliases golang zsh-autosuggestions zsh-syntax
 
 # User configuration
 
-export PATH="/usr/local/rbenv/shims:/usr/local/rbenv/bin:/usr/local/rbenv/shims:/usr/local/rbenv/bin:/opt/skytap/bin:/var/lib/gems/1.8/bin:/opt/kubernetes/bin:/opt/etcd/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/go/bin"
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
