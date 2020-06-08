@@ -5,11 +5,8 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="geoffgarside"
-# ZSH_THEME="kphoen"
-ZSH_THEME="ys"
-# ZSH_THEME="nodeys"
+# ZSH_THEME="ys"
+ZSH_THEME="spaceship"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -59,14 +56,15 @@ ZSH_THEME_HG_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_HG_PROMPT_DIRTY="%{$fg[magenta]%}) %{$fg[yellow]%}✗%{$reset_color%}"
 ZSH_THEME_HG_PROMPT_CLEAN="%{$fg[magenta]%})"
 
-plugins=(git tmux mercurial common-aliases golang)
+plugins=(git tmux mercurial common-aliases golang zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
-  export PATH="/usr/local/rbenv/shims:/usr/local/rbenv/bin:/usr/local/rbenv/shims:/usr/local/rbenv/bin:/opt/skytap/bin:/var/lib/gems/1.8/bin:/opt/kubernetes/bin:/opt/etcd/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/go/bin"
+export PATH="/usr/local/rbenv/shims:/usr/local/rbenv/bin:/usr/local/rbenv/shims:/usr/local/rbenv/bin:/opt/skytap/bin:/var/lib/gems/1.8/bin:/opt/kubernetes/bin:/opt/etcd/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/go/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.cargo/env
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

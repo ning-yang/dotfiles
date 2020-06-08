@@ -10,3 +10,4 @@ sublime/User/*.last-run
 sublime/User/*.merged-ca-bundle
 sublime/User/*.user-ca-bundle
 sublime/User/*.tmTheme
+zsh/themes
